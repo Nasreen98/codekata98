@@ -1,0 +1,9 @@
+ns=int(raw_input())
+if((ns%4==0)):
+    print("yes")
+elif((ns%400==0)):
+    print("yes")
+elif((ns%100==0)):
+    print("yes")
+else:
+    print("no")
